@@ -20,7 +20,6 @@ The [store model](commerce4:craft\commerce\models\Store)’s `getCountriesList()
 ```twig
 {% set storeCountries = craft.commerce
   .getStore()
-  .getStore()
   .getCountriesList() %}
 
 <select>
